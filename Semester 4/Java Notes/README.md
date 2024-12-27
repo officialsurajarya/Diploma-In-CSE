@@ -17,6 +17,6 @@ Good to see you!
 <table>
   <tr>
     <td>You are visitor</td>
-    <td><img src="https://profile-counter.glitch.me/javfa/count.svg" alt="visitor count" height="20"></td>
+    <td><img src="https://profile-counter.glitch.me/java/count.svg" alt="visitor count" height="20"></td>
   </tr>
 </table>
