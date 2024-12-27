@@ -1,7 +1,7 @@
 
 # Welcome
 
-## Hi, I'm Suraj <img src="![Assests/Hi.gif](https://github.com/officialsurajarya/officialsurajarya/blob/main/Assests/Hi.gif)" width="20">
+## Hi, I'm Suraj <img src="https://github.com/officialsurajarya/officialsurajarya/blob/main/Assests/Hi.gif" width="20">
 
 Good to see you!
 
