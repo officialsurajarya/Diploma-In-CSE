@@ -1,8 +1,7 @@
 
 # Welcome
 
-## Hi, I'm Suraj <img src="Assests/Hi.gif" width="20">
-<img align='right' src="https://github.com/officialsurajarya/officialsurajarya/blob/main/Assests/Hi.gif" width="150">
+## Hi, I'm Suraj <img src="![Assests/Hi.gif](https://github.com/officialsurajarya/officialsurajarya/blob/main/Assests/Hi.gif)" width="20">
 
 Good to see you!
 
@@ -18,6 +17,6 @@ Good to see you!
 <table>
   <tr>
     <td>You are visitor</td>
-    <td><img src="https://profile-counter.glitch.me/java/count.svg" alt="visitor count" height="20"></td>
+    <td><img src="https://profile-counter.glitch.me/javfa/count.svg" alt="visitor count" height="20"></td>
   </tr>
 </table>
