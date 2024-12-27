@@ -1,16 +1,23 @@
+
 # Welcome
 
-**My Name is Suraj Arya**  
+## Hi, I'm Suraj <img src="Assests/Hi.gif" width="20">
+<img align='right' src="https://github.com/officialsurajarya/officialsurajarya/blob/main/Assests/Hi.gif" width="150">
+
 Good to see you!
 
----
-
 ## Connect with Me on Social Platforms:
+- **Website**: [officialsurajarya.github.io](https://officialsurajarya.github.io/)
+- **GitHub**: [@officialsurajarya](https://github.com/officialsurajarya)
+- **Instagram**: [@officialsurajarya](https://www.instagram.com/officialsurajarya/)
+- **YouTube**: [@officialsurajarya](https://www.youtube.com/@officialsurajarya)
+- **Facebook**: [OfficialSurajArya](https://www.facebook.com/OfficialSurajArya/)
+- **Threads**: [@officialsurajarya](https://www.threads.net/@officialsurajarya)
 
-- **Website**: [https://officialsurajarya.github.io/](https://officialsurajarya.github.io/)
-- **Instagram**: [https://www.instagram.com/officialsurajarya/](https://www.instagram.com/officialsurajarya/)
-- **Facebook**: [https://www.facebook.com/OfficialSurajArya/](https://www.facebook.com/OfficialSurajArya/)
-- **GitHub**: [https://github.com/officialsurajarya](https://github.com/officialsurajarya)
-- **Threads**: [https://www.threads.net/@officialsurajarya](https://www.threads.net/@officialsurajarya)
-- **YouTube**: [https://www.youtube.com/@officialsurajarya](https://www.youtube.com/@officialsurajarya)
 
+<table>
+  <tr>
+    <td>You are visitor</td>
+    <td><img src="https://profile-counter.glitch.me/java/count.svg" alt="visitor count" height="20"></td>
+  </tr>
+</table>
