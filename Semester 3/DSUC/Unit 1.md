@@ -1,4 +1,4 @@
-Unit 1: **Fundamental Notations** Overview
+# Unit 1: Fundamental Notations
 
 **1.1 Problem Solving Concept: Top-Down and Bottom-Up Design, Structured Programming**
 - **Problem-Solving Concept**: The approach used to break down a problem into smaller, manageable parts to arrive at a solution.
