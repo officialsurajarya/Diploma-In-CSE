@@ -1,4 +1,4 @@
-# **Practical 1: Getting Started with Python and IDLE in Interactive and Batch Modes**
+## **Practical 1: Getting Started with Python and IDLE in Interactive and Batch Modes**
 
 ---
 
@@ -85,12 +85,13 @@ The sum of 10 and 20 is: 30
 
 ---
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-
-
-# **Practical 2: Understanding String Methods in Python**
+## **Practical 2: Understanding String Methods in Python**
 
 ---
 
