@@ -177,7 +177,8 @@ void loop() {
 2. Open the **Arduino IDE**, paste the code, and click on the **Upload** button (the arrow icon).
 3. After the code is successfully uploaded, the LED connected to Pin 13 should start blinking, turning ON for 1 second and OFF for 1 second repeatedly.
 
-![img](arduino.jpg)
+![Arduino](arduino.jpg){width=200px height=200px}
+
 
 
 
