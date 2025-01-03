@@ -90,6 +90,9 @@ The sum of 10 and 20 is: 30
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 ## **Practical 2: Understanding String Methods in Python**
 
@@ -157,11 +160,19 @@ print(result)
   ```
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
 
-# **Practical 3: Program to Determine if a Number is Prime**
+## **Practical 3: Program to Determine if a Number is Prime**
 
 ---
 
@@ -240,12 +251,20 @@ else:
    31 is prime
    ```
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
 
 
-# **Practical 4: Find All Numbers which are Multiples of 17, but Not the Multiples of 5, Between 2000 and 2500**
+## **Practical 4: Find All Numbers which are Multiples of 17, but Not the Multiples of 5, Between 2000 and 2500**
 
 ---
 
@@ -318,9 +337,17 @@ The program will output the numbers between 2000 and 2500 that are multiples of 
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
-# **Practical 5: Swap Two Integer Numbers Using a Temporary Variable and Tuple Assignment**
+## **Practical 5: Swap Two Integer Numbers Using a Temporary Variable and Tuple Assignment**
 
 ---
 
@@ -396,11 +423,19 @@ b = 5
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
 
-# **Practical 6: Find the Largest of N Numbers Using a User-Defined Function `largest()`**
+## **Practical 6: Find the Largest of N Numbers Using a User-Defined Function `largest()`**
 
 ---
 
@@ -472,9 +507,17 @@ The largest number is: 89.0
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
-# **Practical 7: Write a Function `myReverse()` to Reverse a String**
+## **Practical 7: Write a Function `myReverse()` to Reverse a String**
 
 ---
 
@@ -526,11 +569,19 @@ Reversed string: nohtyP
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
 
-# **Practical 8: Check if a Given String is a Palindrome**
+## **Practical 8: Check if a Given String is a Palindrome**
 
 ---
 
@@ -595,10 +646,18 @@ else:
    ```
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
-# **Practical 9: Convert Celsius to Fahrenheit**
+## **Practical 9: Convert Celsius to Fahrenheit**
 
 ---
 
