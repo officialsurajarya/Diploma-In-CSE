@@ -2,6 +2,8 @@
 
 Memory organization in computer systems refers to how memory is structured and how different memory types interact with the CPU. This organization impacts performance, efficiency, and how quickly the system can process data.
 
+<img src="image-of-memory-types.webp" alt="Types of memory" width="500">
+
 ---
 
 #### **2.1 Memory Hierarchy**
