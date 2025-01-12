@@ -13,6 +13,8 @@ Memory hierarchy refers to the arrangement of different types of memory in a com
   3. **Main Memory (RAM)**
   4. **Secondary Storage** (Hard drives, SSDs)
   5. **Tertiary Storage** (Optical disks, tapes)
+ 
+     ![Memory hierarchy](MemoryHierarchy.png)
 
 The memory hierarchy optimizes cost and performance by providing faster but more expensive memory at the top and slower, larger capacity storage at the bottom.
 
