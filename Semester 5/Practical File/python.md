@@ -1,6 +1,6 @@
 ## **Practical 1: Getting Started with Python and IDLE in Interactive and Batch Modes**
 
----
+---   
 
 #### **Aim**
 To familiarize the user with the basic functionality of Python programming and how to use IDLE (Integrated Development and Learning Environment) in both interactive and batch modes.

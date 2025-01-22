@@ -184,3 +184,186 @@ void loop() {
 
 
 
+Here is the rewritten document in a sequential and accurate manner:
+
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+### Practical No: 3  
+**AIM:** Interfacing button and LED: LED blinking when the button is pressed.  
+
+**Requirements:**  
+- 1x Breadboard  
+- 1x LED  
+- 1x Button  
+- 1x Resistor  
+- 6x Jumper wires  
+
+**Procedure:**  
+1. Place the LED and button on the breadboard.  
+2. Connect the positive terminal of the LED to the digital pin 13 of the Arduino board (output) and the negative terminal to the ground (GND) of the Arduino.  
+3. Connect one terminal of the button to the digital pin 2 of the Arduino (input) and the other terminal to the 5V power pin.  
+4. Connect one terminal of the resistor to the digital pin 2 and the other terminal to GND (Arduino).  
+5. Connect the Arduino board to a laptop or PC using a USB cable.  
+6. Write and upload the following program in the Arduino IDE, then check the output.  
+
+**Program Code:**  
+```cpp
+const int BUTTON = 2;  // Pin number for the button
+const int LED = 13;    // Pin number for the LED
+int BUTTONState = 0;   // Variable to store button state
+
+void setup() {
+  pinMode(BUTTON, INPUT);  // Set the button pin as input
+  pinMode(LED, OUTPUT);    // Set the LED pin as output
+}
+
+void loop() {
+  BUTTONState = digitalRead(BUTTON);  // Read the button state and store it in BUTTONState
+
+  if (BUTTONState == HIGH) {  // If the button is pressed
+    digitalWrite(LED, HIGH);  // Turn the LED on
+  } else {
+    digitalWrite(LED, LOW);   // Turn the LED off
+  }
+}
+```
+
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+### Practical No: 4  
+**AIM:** Interfacing Light Dependent Resistor (LDR) and LED for an automatic light lamp.  
+
+**Requirements:**  
+- 1x LED  
+- 1x 220 Ω Resistor  
+- 1x 10 kΩ Resistor  
+- 1x Breadboard  
+- 6x Jumper wires  
+
+**Theory:**  
+An LDR (Light Dependent Resistor) changes its resistance based on the intensity of light falling on it. In the dark, its resistance is high (up to several mega-ohms), whereas in the light, its resistance is low (a few hundred ohms). This behavior is due to the photons giving energy to electrons in the semiconductor, enabling current conduction.  
+
+**Procedure:**  
+1. Place the LDR and LED on the breadboard.  
+2. Connect one terminal of the LDR to the 5V power pin and the other terminal to analog pin A0 of the Arduino. Also, connect the other terminal of the resistor to ground.  
+3. Write the following program in the Arduino IDE.  
+4. Connect the Arduino to a laptop or PC and upload the program. Verify the output.  
+
+**Program Code:**  
+```cpp
+int ldr = A0;   // Set A0 (Analog Input) for LDR
+int value = 0;  // Variable to store LDR value
+
+void setup() {
+  Serial.begin(9600);  // Start serial communication
+  pinMode(3, OUTPUT);  // Set pin 3 as output (LED control)
+}
+
+void loop() {
+  value = analogRead(ldr);  // Read the value from the LDR
+  Serial.println("LDR value is:");
+  Serial.println(value);    // Print the LDR value to Serial Monitor
+
+  if (value < 300) {
+    digitalWrite(3, HIGH);  // Turn on LED when it's dark
+  } else {
+    digitalWrite(3, LOW);   // Turn off LED when it's bright
+  }
+  delay(100);  // Optional delay for stability
+}
+```  
+
+**Behavior:**  
+- When there is light on the LDR, the LED turns off.  
+- When there is no light, the LED turns on.  
+
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### Practical No: 5  
+**AIM:** Interfacing Temperature Sensor (LM35).  
+
+**Requirements:**  
+- Temperature Sensor (LM35)  
+- LCD Display  
+- 1x Resistor  
+- 1x Breadboard  
+- 1x Arduino  
+
+**Theory:**  
+The LM35 is a temperature sensor with a range of -55°C to 150°C. It provides an analog voltage output proportional to the temperature. This voltage is converted to digital form using an ADC for microcontroller processing.  
+
+**Procedure:**  
+1. Connect the temperature sensor to the Arduino board:  
+   - GND pin of the sensor to ground on the Arduino.  
+   - VCC pin of the sensor to the 5V power pin of the Arduino.  
+   - VOUT pin of the sensor to analog pin A1 of the Arduino.  
+2. Write the following program in the Arduino IDE.  
+3. Upload the program to the Arduino and observe the output.  
+
+**Program Code:**  
+```cpp
+const int lm35_pin = A1;  // LM35 output pin connected to A1
+
+void setup() {
+  Serial.begin(9600);  // Start serial communication
+}
+
+void loop() {
+  int temp_adc_val;    // Variable to store raw ADC value
+  float temp_val;      // Variable to store temperature in Celsius
+
+  temp_adc_val = analogRead(lm35_pin);  // Read the analog value from LM35
+  
+  temp_val = temp_adc_val * 4.88;       // Convert ADC value to voltage (assuming 5V reference)
+  temp_val = temp_val / 10;             // LM35 provides 10mV per degree Celsius
+
+  Serial.print("Temperature = ");
+  Serial.print(temp_val);
+  Serial.println(" Degree Celsius");
+
+  delay(1000);  // Wait for 1 second before next reading
+}
+```
+
+**Result:**  
+- Example output on Serial Monitor:  
+  ```
+  Temperature: 29°C  
+  Temperature: 28°C  
+  Temperature: 27.8°C  
+  ```
+
+---
+
+Let me know if further refinements are required!
