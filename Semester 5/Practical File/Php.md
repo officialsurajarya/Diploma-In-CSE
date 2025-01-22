@@ -1,4 +1,4 @@
-### ** Practical No: 1**
+### **Practical No: 1**
 **Object:** Create web forms and pages that properly use HTTP GET and POST protocol as appropriate.
 
 ### Creating a Web Form Using GET Method:
